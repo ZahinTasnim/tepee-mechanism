@@ -1,0 +1,68 @@
+{
+ "parameters": {
+  "R_CRANK": 20.0,
+  "STROKE": 40.0,
+  "PIN_D": 8.0,
+  "CLR": 0.3,
+  "SLOT_W": 8.6,
+  "SLOT_L": 54.0,
+  "PLATE_L": 64.6,
+  "Z_CRANK": 8.0,
+  "Z_YOKE": 20.0,
+  "AXIS_Z": 24.0,
+  "ROD_D": 10.0,
+  "GUIDE_BORE": 10.2,
+  "GUIDE_X": 72.0,
+  "GUIDE_L": 26.0,
+  "ROD_LEN": 80.0,
+  "DISC_D": 64.0,
+  "DISC_T": 10.0,
+  "PIN_LEN": 14.0
+ },
+ "parts": {
+  "scotch_yoke_frame": {
+   "volume_mm3": 232499.6,
+   "bbox_mm": [
+    200.0,
+    120.0,
+    39.0
+   ],
+   "valid": true,
+   "base": "200.0x120.0x8.0",
+   "shaft_bore": 12.2,
+   "guide_bore": 10.2,
+   "slide_axis_height": 24.0,
+   "mounting": "4x M6 counterbored at (+-85, +-50)"
+  },
+  "scotch_yoke_crank": {
+   "volume_mm3": 31742.7,
+   "bbox_mm": [
+    64.04,
+    64.04,
+    24.03
+   ],
+   "valid": true,
+   "disc_d": 64.0,
+   "thickness": 10.0,
+   "shaft_bore": 12.0,
+   "crank_radius": 20.0,
+   "pin_d": 8.0,
+   "pin_length": 14.0
+  },
+  "scotch_yoke_yoke": {
+   "volume_mm3": 45154.1,
+   "bbox_mm": [
+    224.61,
+    70.0,
+    10.01
+   ],
+   "valid": true,
+   "slot_width": 8.6,
+   "slot_length": 54.0,
+   "plate": "64.6x70.0x8.0",
+   "rod_d": 10.0,
+   "rod_length_each": 80.0,
+   "stroke": 40.0
+  }
+ }
+}

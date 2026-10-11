@@ -1,0 +1,42 @@
+{
+ "angles_checked_deg": [
+  0,
+  15,
+  30,
+  45,
+  60,
+  75,
+  90,
+  105,
+  120,
+  135,
+  150,
+  165,
+  180,
+  195,
+  210,
+  225,
+  240,
+  255,
+  270,
+  285,
+  300,
+  315,
+  330,
+  345
+ ],
+ "max_interference_mm3": {
+  "crank-yoke": 0.0,
+  "yoke-frame": 0.0,
+  "crank-frame": 0.0
+ },
+ "min_gap_mm": {
+  "crank-yoke": 0.3,
+  "yoke-frame": 0.1,
+  "crank-frame": 0.0
+ },
+ "pin_travel_mm": 20.0,
+ "slot_free_travel_mm": 22.7,
+ "slot_margin_mm": 2.7,
+ "rods_pass_through_guides_over_full_stroke": true
+}

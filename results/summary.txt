@@ -1,0 +1,18 @@
+Tepee mechanism, r2 = r3 = 10, course range theta2 = 80 -> 0 deg, theta2_dot = 1 rad/s
+
+Max |result - closed form|        r1         theta3     r1d        theta3d    r1dd      
+  course code (tol 1e-3)          9.4e-04    9.2e-05    4.2e-03    4.1e-04    9.0e-04   
+  revised function (tol 1e-10)    1.0e-10    8.8e-12    1.7e-10    1.4e-11    5.3e-10   
+
+End points (closed form): theta2 = 80 deg: r1 = 3.473, r1_dot = -19.696, r1_ddot = -3.473
+                          theta2 =  0 deg: r1 = 20.000, r1_dot = 0.000, r1_ddot = -20.000
+
+Assembly modes (theta2 [deg], tepee r1, tepee theta3 [deg], folded r1, folded theta3 [deg]):
+     30    17.3205    150.00    2.4e-15     30.00
+     60    10.0000    120.00   -1.9e-15     60.00
+     80     3.4730    100.00   -3.6e-16     80.00
+
+det J = r3 cos(theta3) = 0 at theta2 = 90 and 270 deg (slider at the crank pivot)
+Scotch yoke (crank radius 20) vs tepee slider: max |difference| = 0.0e+00
+Extended coupler point Q = 2P - S: max |x_Q| = 0.0e+00 (moves on the line x = 0)
+Coupler length check: max |PS - r3| = 1.8e-15

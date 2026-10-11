@@ -1,0 +1,57 @@
+{
+ "angles_checked_deg": [
+  0,
+  15,
+  30,
+  45,
+  60,
+  75,
+  90,
+  105,
+  120,
+  135,
+  150,
+  165,
+  180,
+  195,
+  210,
+  225,
+  240,
+  255,
+  270,
+  285,
+  300,
+  315,
+  330,
+  345
+ ],
+ "max_interference_mm3": {
+  "base-bridge": 0.0,
+  "base-crank": 0.0,
+  "base-coupler": 0.0,
+  "base-slider": 0.0,
+  "bridge-crank": 0.0,
+  "bridge-coupler": 0.0,
+  "bridge-slider": 0.0,
+  "crank-coupler": 0.0,
+  "crank-slider": 0.0,
+  "coupler-slider": 0.0
+ },
+ "min_gap_mm": {
+  "base-bridge": 0.0,
+  "base-crank": 0.15,
+  "base-coupler": 2.0,
+  "base-slider": 1.0,
+  "bridge-crank": 1.5,
+  "bridge-coupler": 2.0,
+  "bridge-slider": 0.3,
+  "crank-coupler": 0.0,
+  "crank-slider": 3.213,
+  "coupler-slider": 0.15
+ },
+ "pin_to_hole_gap_mm": {
+  "crank pin - coupler": 0.15,
+  "slider pin - coupler": 0.15
+ },
+ "slider_stroke_mm": 100.0
+}
