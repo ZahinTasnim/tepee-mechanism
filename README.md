@@ -1,8 +1,8 @@
-# Tepee Mechanism: Kinematic Analysis, MATLAB Code and CAD
+# 1-DOF Tepee Mechanism: Kinematic Analysis
 
 Kinematic analysis of a 1-DOF tepee (equal-length slider-crank) linkage, with a closed-form check, a full-revolution study in Python and a parametric CAD model with a motion check.
 
-The core analysis started as a group project in **ME 4504, Mechanics of Machines Lab** (Department of Mechanical and Production Engineering, Islamic University of Technology), submitted by Group 4 (six students) on 1 December 2023. I later revisited that work:
+The core analysis started as a group project in **ME 4504, Mechanics of Machines Lab** (Department of Mechanical and Production Engineering, Islamic University of Technology), submitted by Group 4. I later revisited that work:
 - corrected and generalised the MATLAB code;
 - verified it against the closed-form solution;
 - extended the analysis to a full crank revolution in Python;
@@ -117,8 +117,8 @@ I modelled the linkage parametrically in Python with CadQuery at r₂ = r₃ = 2
 
 The tepee also has a straight-line property. A point on link 3, extended past P by r₃, moves on the straight line x = 0. This is the basis of the Scott Russell straight-line linkage.
 
-## Reproducing the results
 
+## Reproducing the results
 ```
 pip install -r requirements.txt
 
@@ -145,6 +145,3 @@ python python/render_tepee_cad.py
 ```
 
 ## Sources cited in the group report
-
-1. YouTube video (link as given in the report): https://www.youtube.com/watch?v=L-r15ES3vFI&list=PLTMo3nrl2KWbeCx8-OGfrMHcFOUSjyk4D&index=8
-2. *ME 3011 Final Report (Revised)*, hosted at jonathanmbowman.com (link as given in the report): https://www.jonathanmbowman.com/pdfs/ME%203011%20Final%20Report%20Revised.pdf
